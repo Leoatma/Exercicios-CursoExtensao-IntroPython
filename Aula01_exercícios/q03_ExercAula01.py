@@ -5,4 +5,4 @@ userNumber = int(input("Informe um número inteiro: "))
 prevNmber = userNumber - 1
 nextNmber = userNumber + 1
 
-print("O seu número fica entre {} e {}.".format(prevNmber, nextNmber))
+print(f'O antecessor do seu número {userNumber} é {prevNmber}, e o seu sucessor é {nextNmber}')

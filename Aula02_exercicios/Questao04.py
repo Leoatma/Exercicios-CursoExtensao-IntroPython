@@ -15,12 +15,12 @@ lado3 = int(input("3 segmento: "))
 
 
 
-if ((lado1 > lado2) & (lado1 > lado3)):
+if ((lado1 > lado2) and (lado1 > lado3)):
     if ((lado2 + lado3) > lado1):
         print("É triângulo")
     else:
         print("Não é triângulo")
-elif ((lado2 > lado1) & (lado2 > lado3)):
+elif ((lado2 > lado1) and (lado2 > lado3)):
     if ((lado1 + lado3) > lado2):
         print("É triângulo")
     else:

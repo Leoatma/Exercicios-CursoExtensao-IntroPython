@@ -14,6 +14,6 @@ else:
 
 valorTotal = float(qtdeLaranjas * laranjaUn)
 
-print("O valor total é de {} reais para {} laranjas".format(valorTotal, qtdeLaranjas))
+print(f' O valor total é de {valorTotal} reais para {qtdeLaranjas} laranjas')
 
 
